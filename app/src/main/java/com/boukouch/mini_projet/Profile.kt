@@ -14,7 +14,7 @@ import com.google.android.material.textfield.TextInputEditText
 class Profile : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(layout.activity_profile)
+        setContentView(layout.signup)
     }
 
     fun onChangePasswordClick(view: View) {
