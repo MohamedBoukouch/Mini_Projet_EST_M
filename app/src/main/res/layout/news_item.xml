@@ -1,4 +1,4 @@
-<!-- res/layout/news_item.xml -->
+
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -60,7 +60,6 @@
         android:layout_marginTop="8dp"
         android:textColor="#FFFFFF"
         android:clickable="true"
-        android:onClick="openPdfLink"
         android:textColorLink="@color/white"
         android:autoLink="web"/>
 

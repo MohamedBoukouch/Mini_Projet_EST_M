@@ -19,7 +19,7 @@ class MainActivity_avis : AppCompatActivity() {
 }
 
 // Extension function to set up the RecyclerView with a news adapter
-fun RecyclerView.setupNewsRecyclerView(context: Context, newsList: List<NewsItem>) {
-    adapter = NewsItemAdapter(context, newsList)
+fun RecyclerView.setupNewsRecyclerView(newsList: List<NewsItem>) {
+    adapter = NewsItemAdapter(newsList)
     layoutManager = LinearLayoutManager(context)
 }
