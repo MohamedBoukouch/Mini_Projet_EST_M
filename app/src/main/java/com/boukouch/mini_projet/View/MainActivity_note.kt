@@ -40,6 +40,35 @@ class MainActivity_note : AppCompatActivity() {
 
 
 
+<<<<<<< HEAD:app/src/main/java/com/boukouch/mini_projet/View/MainActivity_note.kt
+=======
+        navView.setNavigationItemSelectedListener {
+            when (it.itemId) {
+                R.id.mail_academique -> {Toast.makeText(this , "Mail Académique" , Toast.LENGTH_LONG).show()
+                    val intent = Intent( this, Recuperation_mot_pass_Activity::class.java)
+                    startActivity(intent)
+                }
+                R.id.nav_message -> {
+                    val intent = Intent(this, Home::class.java)
+                    startActivity(intent)
+                }
+                R.id.nav_Memo -> {
+                    val intent = Intent(this, MainActivity_note::class.java)
+                    startActivity(intent)
+                    Log.d("Home", "memeo Home")
+                }
+                R.id.nav_settings -> Toast.makeText(applicationContext, "Clicked Settings", Toast.LENGTH_LONG).show()
+                R.id.nav_Comte -> Toast.makeText(applicationContext, "Clicked login", Toast.LENGTH_LONG).show()
+                R.id.nav_Password -> Toast.makeText(applicationContext, "Clicked login", Toast.LENGTH_LONG).show()
+                R.id.nav_share -> {
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                }
+                R.id.nav_feedback -> Toast.makeText(applicationContext, "Clicked FeedBack", Toast.LENGTH_LONG).show()
+            }
+            true
+        }
+>>>>>>> fc482ce9a75eb645312dc40b6d49fe254f09cab7:app/src/main/java/com/boukouch/mini_projet/MainActivity_note.kt
 
         AddButton.setOnClickListener {
             val intent = Intent(this, addNoteActivity::class.java)

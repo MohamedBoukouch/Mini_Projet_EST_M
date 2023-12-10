@@ -11,9 +11,15 @@
         android:title="Consulter Notes"/>
 
     <item
+<<<<<<< HEAD
     android:id="@+id/email"
     android:icon="@drawable/email_aca"
     android:title="Email Académique"/>
+=======
+    android:id="@+id/mail_academique"
+    android:icon="@drawable/baseline_message_24"
+    android:title="Récupération Mail académiques"/>
+>>>>>>> fc482ce9a75eb645312dc40b6d49fe254f09cab7
 
     <item
         android:id="@+id/nav_Memo"
