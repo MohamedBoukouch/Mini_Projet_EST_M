@@ -46,12 +46,18 @@ class NewsItemAdapter(private val newsList: List<NewsItem>) : RecyclerView.Adapt
             override fun onClick(widget: View) {
                 // Mettez ici le code que vous souhaitez exécuter lors du clic sur le lien
                 // Par exemple, ouvrir le lien PDF
-                // openPdfLink(currentItem.pdfFileName)
+                openPdfLink(clickablePart)
             }
         }
         val startIndex = fullText.indexOf(clickablePart)
         val endIndex = startIndex + clickablePart.length
         spannableString.setSpan(clickableSpan, startIndex, endIndex, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
         return spannableString
+    }
+
+    // Placeholder function for openPdfLink, replace with your logic
+    private fun openPdfLink(pdfFileName: String) {
+        // Implement your logic to open the PDF file
+        // For example, you can launch a PDF viewer activity with the file
     }
 }

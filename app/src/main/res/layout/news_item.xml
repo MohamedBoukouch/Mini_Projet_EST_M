@@ -61,7 +61,8 @@
         android:textColor="#FFFFFF"
         android:clickable="true"
         android:textColorLink="@color/white"
-        android:autoLink="web"/>
+        android:autoLink="web"
+        />
 
 
 </RelativeLayout>
