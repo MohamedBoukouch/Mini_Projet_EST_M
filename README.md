@@ -9,5 +9,4 @@
 <img src="https://github.com/MohamedBoukouch/Mini_Projet_EST_M/assets/118060836/8178a9b3-e6bb-4dda-b232-b779105216f3" alt="screen9" width="200" height="400">
 <img src="https://github.com/MohamedBoukouch/Mini_Projet_EST_M/assets/118060836/da9c684c-1e57-4647-b86f-41be1b3d81ba" alt="screen10" width="200" height="400">
 <img src="https://github.com/MohamedBoukouch/Mini_Projet_EST_M/assets/118060836/d5f5f68a-db41-4b93-a6e2-b53c893323eb" alt="screen11" width="200" height="400">
-<img src="https://github.com/MohamedBoukouch/Mini_Projet_EST_M/assets/118060836/36aa5411-96b4-40ed-95bd-c15ae5eb5a5f" alt="screen12" width="200" height="400">
-<img src="https://github.com/MohamedBoukouch/Mini_Projet_EST_M/assets/118060836/6cae8d31-9591-46b6-a637-04cc4740b5af" alt="screen13" width="200" height="400">
+<img src="https://github.com/MohamedBoukouch/Mini_Projet_EST_M/assets/118060836/6cae8d31-9591-46b6-a637-04cc4740b5af" alt="screen12" width="200" height="400">
